@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Labphase.css">
+    <title>Product</title>
+</head>
+
+<body>
+    <div class="mainpage">
+        <div class="topnav">
+            <img src="RSS/lemon.png" alt="">
+            <a href="index.html">About us</a>
+            <a href="LabphaseProductPage.html">Our products</a>
+            <a href="LabphaseContact.html">Contact us</a>
+        </div>
+    </div>
+    <h1 class="products"><b>Wassimo's lemonade stand !</b></h1>
+    <h2 class="varieties">Here is our famous product range :</h2>
+    <h2 class="order">And you can place your order right here</h2>
+
+    <!-- Did not make a separate DOM page for the shopping cart, is it okay? -->
+    <!-- The shopping cart is not fully functional yet -->
+
+
+    <div class="wrapper">
+        <div class="shopping">
+            <h3 id="shopping-cart">Shopping Cart</h3>
+            <article>
+                <img src="RSS/Lemon.svg">
+                <p>Regular lemonade to go</p>
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+                <p>$<span class="money">5</span></p>
+                <span>x</span>
+
+            </article>
+            <article>
+                <img src="RSS/Lemon.svg">
+                <p>Mint Lemonade to go</p>
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+                <p>$<span class="money">5</span></p>
+                <span>x</span>
+
+            </article>
+
+            <article>
+                <img src="RSS/Lemon.svg">
+                <p>Squeeze it yourself (1Kg)</p>
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+                <p>$<span class="money">5</span></p>
+                <span>x</span>
+
+            </article>
+
+            <article id="checkout">
+                <p>Total price: $<span id="price"></span></p>
+                <button>Buy now!</button>
+            </article>
+        </div>
+    </div>
+
+
+    <script src="JS/Labphase.js"></script>
+
+
+</body>
+
+</html>
